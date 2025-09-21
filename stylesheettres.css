@@ -1,11 +1,12 @@
+body{
+    background-image: radial-gradient(rgb(64, 42, 75), rgb(12, 2, 17));
+}
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #46055a;
-
-
 }
 ul li a{
     float: left;
@@ -25,13 +26,52 @@ ul li a:hover{
     background-size: cover;
     font-size: 200%;
     color: white;
-    padding: 40px;
+    padding: 10px;
 }
 
 .bigtext{
     font-family: 'Bloody Modes', sans-serif; 
+    color: white;
 }
 .text{
     font-family:'Trebuchet MS', sans-serif;
     font-size: 20px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0;
+    margin: 0;
+    color: white;
+
+}
+img{
+    width: 80%;
+    height: 80%;
+}
+.two{
+    position: relative;
+    left: 120px;
+}
+
+footer{
+    background-color:#46055a;
+}
+.bigtext-contact{
+    font-family: "Bloody Modes", sans-serif;
+    color: #eafc4f;
+    font-size: 35px;
+    margin: 10px;
+
+}
+.contact{
+    font-family: 'Bloody Modes', sans-serif;
+    color: white;
+    font-size: 24px;
+}
+.contact-list{
+    margin-left: 10px;
+}
+
 }
