@@ -4,8 +4,6 @@ ul{
     padding: 0;
     overflow: hidden;
     background-color: #46055a;
-
-
 }
 ul li a{
     float: left;
@@ -24,6 +22,7 @@ ul li a:hover{
     background-image:url('assets/mansion.PNG') ;
     background-repeat: no-repeat; 
     background-size: cover;
+    padding: 40px;
     font-size: 200%;
     color: white;
 }
@@ -38,6 +37,7 @@ ul li a:hover{
 
 .flex{
     display: grid;
+    padding-bottom: 50px;
 }
 .photo{
     margin: 0;
