@@ -1,3 +1,7 @@
+body{
+    background-image: radial-gradient(rgb(64, 42, 75), rgb(12, 2, 17));
+}
+
 ul{
     list-style-type: none;
     margin: 0;
@@ -22,17 +26,19 @@ ul li a:hover{
     background-image:url('assets/mansion.PNG') ;
     background-repeat: no-repeat; 
     background-size: cover;
-    padding: 40px;
+    padding: 10px;
     font-size: 200%;
     color: white;
 }
 
 .bigtext{
     font-family: 'Bloody Modes', sans-serif; 
+    color: white;
 }
 .text{
     font-family:'Trebuchet MS', sans-serif;
     font-size: 20px;
+    color: white;
 }
 
 .flex{
@@ -66,7 +72,6 @@ footer{
     color: #eafc4f;
     font-size: 35px;
     margin: 10px;
-
 }
 .contact{
     font-family: 'Bloody Modes', sans-serif;
