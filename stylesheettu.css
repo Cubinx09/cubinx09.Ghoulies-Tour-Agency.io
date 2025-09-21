@@ -1,3 +1,7 @@
+body{
+    background-image: radial-gradient(rgb(64, 42, 75), rgb(12, 2, 17));
+}
+
 ul{
     list-style-type: none;
     margin: 0;
@@ -27,10 +31,12 @@ ul li a:hover{
 }
 .bigtext{
     font-family: 'Bloody Modes', sans-serif; 
+    color: white;
 }
 .text{
     font-family:'Trebuchet MS', sans-serif;
     font-size: 20px;
+    color: white;
 }
 
 .container{
@@ -38,6 +44,7 @@ ul li a:hover{
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 18px;
     padding-bottom: 100px;
+    color: white;
 }
 img{
     width: 80%;
@@ -62,3 +69,4 @@ footer{
 .contact-list{
     margin-left: 10px;
 }
+
