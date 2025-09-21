@@ -4,8 +4,6 @@ ul{
     padding: 0;
     overflow: hidden;
     background-color: #46055a;
-
-
 }
 ul li a{
     float: left;
@@ -21,7 +19,11 @@ ul li a:hover{
 }
 
 .heading{
+    background-image: url("assets/forest.jpg");
+    background-size: cover;
     font-size: 200%;
+    color: white;
+    padding: 40px;
 }
 .bigtext{
     font-family: 'Bloody Modes', sans-serif; 
@@ -29,4 +31,34 @@ ul li a:hover{
 .text{
     font-family:'Trebuchet MS', sans-serif;
     font-size: 20px;
+}
+
+.container{
+    display: flex;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    padding-bottom: 100px;
+}
+img{
+    width: 80%;
+    height: 80%;
+}
+
+footer{
+    background-color:#46055a;
+}
+.bigtext-contact{
+    font-family: "Bloody Modes", sans-serif;
+    color: #eafc4f;
+    font-size: 35px;
+    margin: 10px;
+
+}
+.contact{
+    font-family: 'Bloody Modes', sans-serif;
+    color: white;
+    font-size: 24px;
+}
+.contact-list{
+    margin-left: 10px;
 }
