@@ -1,0 +1,78 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #46055a;
+
+
+}
+ul li a{
+    float: left;
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 28px;
+}
+ul li a:hover{
+    background: #8210a5;
+}
+
+.heading{
+    background-image:url('assets/mansion.PNG') ;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    font-size: 200%;
+    color: white;
+}
+
+.bigtext{
+    font-family: 'Bloody Modes', sans-serif; 
+}
+.text{
+    font-family:'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.flex{
+    display: grid;
+}
+.photo{
+    margin: 0;
+    padding: 0;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+.phototwo{
+    margin-top: 25.5px;
+    padding:0;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+.photothree{
+    margin-top: 51px;
+    padding: 0;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+footer{
+    background-color:#46055a;
+}
+.bigtext-contact{
+    font-family: "Bloody Modes", sans-serif;
+    color: #eafc4f;
+    font-size: 35px;
+    margin: 10px;
+
+}
+.contact{
+    font-family: 'Bloody Modes', sans-serif;
+    color: white;
+    font-size: 24px;
+}
+.contact-list{
+    margin-left: 10px;
+}
